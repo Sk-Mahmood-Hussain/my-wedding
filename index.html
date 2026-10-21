@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#D9CFF0">
+  <title>Gulzar E Eram &amp; Shamsul Khan — Wedding Invitation</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="door-locked">
+
+  <!-- =====================================================
+       SVG ORNAMENT LIBRARY (accessible inline symbols)
+       ===================================================== -->
+  <svg width="0" height="0" style="position:absolute;pointer-events:none" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Crescent moon with star -->
+      <symbol id="crescent" viewBox="0 0 100 100">
+        <path fill="currentColor" d="M60 10 A40 40 0 1 0 60 90 A50 50 0 0 1 60 10 Z"/>
+        <path fill="currentColor" d="M76 38 L79 47 L88 50 L79 53 L76 62 L73 53 L64 50 L73 47 Z"/>
+      </symbol>
+
+      <!-- Golden flower (8 petals) -->
+      <symbol id="floral" viewBox="0 0 100 100">
+        <g fill="none" stroke="currentColor" stroke-width="2">
+          <ellipse cx="50" cy="26" rx="8" ry="20"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(45 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(90 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(135 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(180 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(225 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(270 50 50)"/>
+          <ellipse cx="50" cy="26" rx="8" ry="20" transform="rotate(315 50 50)"/>
+          <circle cx="50" cy="50" r="13"/>
+        </g>
+        <circle cx="50" cy="50" r="7" fill="currentColor"/>
+      </symbol>
+
+      <!-- Islamic 8-pointed star -->
+      <symbol id="star8" viewBox="0 0 100 100">
+        <g fill="none" stroke="currentColor" stroke-width="3">
+          <rect x="22" y="22" width="56" height="56"/>
+          <rect x="22" y="22" width="56" height="56" transform="rotate(45 50 50)"/>
+        </g>
+        <circle cx="50" cy="50" r="7" fill="currentColor"/>
+      </symbol>
+
+      <!-- Henna leaf -->
+      <symbol id="leaf" viewBox="0 0 100 100">
+        <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <path d="M50 6 C86 34 86 70 50 94 C14 70 14 34 50 6 Z"/>
+          <path d="M50 22 V94"/>
+          <path d="M50 44 L68 32 M50 44 L32 32 M50 62 L72 48 M50 62 L28 48"/>
+        </g>
+      </symbol>
+
+      <!-- Mihrab arch -->
+      <symbol id="arch" viewBox="0 0 100 100">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round">
+          <path d="M14 94 V52 C14 30 38 22 50 6 C62 22 86 30 86 52 V94 Z"/>
+          <path d="M28 94 V56 C28 42 42 36 50 24 C58 36 72 42 72 56 V94"/>
+        </g>
+        <circle cx="50" cy="60" r="5" fill="currentColor"/>
+      </symbol>
+
+      <!-- Corner ornament for gold frames -->
+      <symbol id="corner" viewBox="0 0 80 80">
+        <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M4 76 V30 Q4 4 30 4 H76"/>
+          <path d="M14 76 V36 Q14 14 36 14 H76" opacity=".5"/>
+          <path d="M26 26 q10 -2 14 -12 M26 26 q-2 10 -12 14"/>
+        </g>
+        <circle cx="26" cy="26" r="4" fill="currentColor"/>
+      </symbol>
+
+      <!-- WhatsApp icon -->
+      <symbol id="ico-whatsapp" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.12.82.83-3.04-.2-.32a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.27-8.24 8.27zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/>
+      </symbol>
+
+      <!-- Phone icon -->
+      <symbol id="ico-phone" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- Floating gold sparkles -->
+  <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Background Music Control -->
+  <button id="music-btn" class="music-btn" type="button" aria-label="Play background music">&#9834;</button>
+  <audio id="bg-music" loop preload="none">
+    <source src="assets/ausio.mp3" type="audio/mpeg">
+    <source src="assets/ausio" type="audio/mpeg">
+  </audio>
+
+  <!-- =====================================================
+       1. OPENING STAGE — LAVENDER DOUBLE DOORS
+       ===================================================== -->
+  <section class="door-stage opening-stage" id="openingStage" aria-label="Wedding invitation entrance">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- Welcome Frame revealed behind opening doors -->
+    <div class="welcome-stage" aria-label="Welcome card">
+      <img class="welcome-frame" src="assets/welcome-frame.png" alt="Decorative floral frame" />
+      <div class="welcome-copy" id="welcomeCopy" aria-hidden="true">
+        <p class="bismillah reveal-words" data-text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+        <p class="eyebrow reveal-words" data-text="WITH THE BLESSINGS OF ALLAH">WITH THE BLESSINGS OF ALLAH</p>
+        <h1 class="couple-name">
+          <span class="name-line reveal-words" data-text="Gulzar E Eram">Gulzar E Eram</span>
+          <span class="ampersand">&amp;</span>
+          <span class="name-line reveal-words" data-text="Shamsul Khan">Shamsul Khan</span>
+        </h1>
+        <div class="ornament" aria-hidden="true"><span></span><i>✦</i><span></span></div>
+        <p class="invitation-line reveal-words" data-text="Joyfully invite you to celebrate their Nikah">Joyfully invite you to celebrate their Nikah</p>
+        <p class="date-line reveal-words" data-text="15 November 2026">15 November 2026</p>
+        <p class="venue-line reveal-words" data-text="Noor Jahan Mandap · Tilda, Cuttack">Noor Jahan Mandap · Tilda, Cuttack</p>
+        <p class="urdu-line reveal-words" data-text="آپ کی دعاؤں کے طلبگار">آپ کی دعاؤں کے طلبگار</p>
+        <a href="#invitationContent" class="scroll-explore-btn" id="scrollExploreBtn" aria-label="Scroll down to explore the invitation">
+          <span>Scroll to Explore</span>
+          <span class="arrow-down" aria-hidden="true">&#8595;</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Lavender Double Doors (Split into left and right hinged panels) -->
+    <button class="door-trigger" id="doorTrigger" type="button" aria-label="Tap to open the wedding invitation" aria-expanded="false">
+      <span class="door-hint" id="doorHint">Tap the doors to open our invitation <span aria-hidden="true">✦</span></span>
+      <span class="door-image-wrap" aria-hidden="true">
+        <img class="door-image door-left" src="assets/wedding-doors.png" alt="">
+        <img class="door-image door-right" src="assets/wedding-doors.png" alt="">
+      </span>
+    </button>
+    <p class="sr-only" id="interactionStatus" aria-live="polite"></p>
+    <div class="bottom-note" id="bottomNote" aria-hidden="true">A little invitation, made with love</div>
+  </section>
+
+  <!-- =====================================================
+       2. MAIN WEDDING INVITATION CONTENT
+       ===================================================== -->
+  <main class="invitation-content" id="invitationContent">
+
+    <!-- Language Selector Toggle -->
+    <div class="lang-bar reveal" id="langBar" role="region" aria-label="Language selection">
+      <span class="lang-label">Language:</span>
+      <div class="lang-pills">
+        <button type="button" class="lang-pill active" data-lang="all">Both / دونوں</button>
+        <button type="button" class="lang-pill" data-lang="en">English</button>
+        <button type="button" class="lang-pill" data-lang="ur">اردو</button>
+      </div>
+    </div>
+
+    <!-- ============ SECTION 1: HERO / NAMES ============ -->
+    <header class="section hero" id="home">
+      <div class="gold-frame hero-frame reveal">
+        <!-- Glowing crescent moon -->
+        <svg class="hero-crescent" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg>
+
+        <p class="arabic lang-sec-ur">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <p class="small-caps lang-sec-en">With the blessings of Allah</p>
+
+        <div class="ornament-row" aria-hidden="true">
+          <svg class="orn" viewBox="0 0 100 100"><use href="#floral"></use></svg>
+          <svg class="orn orn-big spin" viewBox="0 0 100 100"><use href="#star8"></use></svg>
+          <svg class="orn" viewBox="0 0 100 100"><use href="#floral"></use></svg>
+        </div>
+
+        <p class="small-caps">Cordially invites you to the wedding of</p>
+
+        <h2 class="gold-text">
+          <span data-fill="brideName">Gulzar E Eram</span>
+          <span class="amp">&amp;</span>
+          <span data-fill="groomName">Shamsul Khan</span>
+        </h2>
+
+        <p class="urdu names-urdu lang-sec-ur">
+          <span data-fill="brideNameUrdu">گلزارِ ارم</span> اور <span data-fill="groomNameUrdu">شمسل خان</span>
+        </p>
+
+        <div class="divider"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"></use></svg></div>
+        <button id="save-date-btn" class="btn btn-ghost" type="button" aria-label="Open calendar to save the date">Save the Date 📅</button>
+      </div>
+    </header>
+
+    <!-- ============ SECTION 2: SCRATCH CARD ============ -->
+    <section class="section" id="scratch">
+      <h2 class="section-title reveal">Scratch to Reveal the Date</h2>
+      <p class="urdu section-urdu reveal lang-sec-ur">تاریخ دیکھنے کے لیے کھرچیں</p>
+      <div class="divider reveal"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg></div>
+
+      <div class="scratch-wrap reveal" id="scratch-wrap">
+        <!-- Hidden underneath -->
+        <div class="scratch-under">
+          <span class="scratch-label">Save the Date</span>
+          <strong id="scratch-date"></strong>
+          <em id="scratch-sub"></em>
+        </div>
+        <!-- Gold scratchable cover -->
+        <canvas id="scratch-canvas"></canvas>
+      </div>
+
+      <p class="hint" id="scratch-hint">Use your finger or mouse to scratch the gold card.</p>
+      <button id="reveal-btn" class="btn btn-ghost" type="button">Reveal instantly</button>
+    </section>
+
+    <!-- ============ SECTION 3: INVITATION WORDING ============ -->
+    <section class="section" id="invitation">
+      <div class="gold-frame reveal">
+        <h2 class="section-title">The Invitation</h2>
+        <p class="urdu section-urdu lang-sec-ur">دعوت نامہ</p>
+        <div class="divider"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#floral"></use></svg></div>
+
+        <!-- Quranic verse (Surah Ar-Rum 30:21) -->
+        <p class="arabic verse lang-sec-ur">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا لِتَسْکُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً</p>
+        <p class="verse-en lang-sec-en">“And among His signs is that He created for you spouses from among yourselves, that you may find tranquility in them, and He placed between you love and mercy.” <span>(Surah Ar-Rum 30:21)</span></p>
+
+        <div class="divider small"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"></use></svg></div>
+
+        <!-- English wording -->
+        <div class="lang-sec-en">
+          <p class="invite-text">
+            With the grace of Almighty Allah and with joyful hearts, cordially invites you
+            to join us in celebrating the wedding of
+            <strong data-fill="brideName">Gulzar E Eram</strong> with <strong data-fill="groomName">Shamsul Khan</strong>.
+            Your presence and your duas will make this occasion truly special.
+          </p>
+        </div>
+
+        <div class="divider small lang-divider"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"></use></svg></div>
+
+        <!-- Urdu wording (RTL) -->
+        <div class="lang-sec-ur">
+          <p class="urdu invite-text-urdu">
+            اللہ تعالیٰ کے فضل و کرم سے، ہم آپ کو
+            <span data-fill="brideNameUrdu">گلزارِ ارم</span> اور <span data-fill="groomNameUrdu">شمسل خان</span>
+            کی شادی کی تقریبات میں شرکت کی دلی دعوت دیتے ہیں۔
+            آپ کی موجودگی اور دعائیں ہمارے لیے باعثِ مسرت ہوں گی۔
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 4: EVENT CELEBRATIONS ============ -->
+    <section class="section" id="events">
+      <h2 class="section-title reveal">Celebrations</h2>
+      <p class="urdu section-urdu reveal lang-sec-ur">تقریبات</p>
+      <div class="divider reveal"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"></use></svg></div>
+      <div class="events-grid" id="events-grid"></div>
+    </section>
+
+    <!-- ============ SECTION 5: COUNTDOWN TO NIKAH ============ -->
+    <section class="section" id="countdown">
+      <h2 class="section-title reveal">Counting Down to the Nikah</h2>
+      <p class="urdu section-urdu reveal lang-sec-ur">نکاح کی الٹی گنتی</p>
+      <div class="divider reveal"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg></div>
+
+      <div class="countdown-grid reveal" id="countdown-grid">
+        <div class="cd-box"><span id="cd-days">00</span><small>Days</small></div>
+        <div class="cd-box"><span id="cd-hours">00</span><small>Hours</small></div>
+        <div class="cd-box"><span id="cd-minutes">00</span><small>Minutes</small></div>
+        <div class="cd-box"><span id="cd-seconds">00</span><small>Seconds</small></div>
+      </div>
+
+      <p class="countdown-done" id="countdown-done" hidden></p>
+    </section>
+
+    <!-- ============ SECTION 6: VENUE & MAP ============ -->
+    <section class="section" id="venue">
+      <h2 class="section-title reveal">Venue</h2>
+      <p class="urdu section-urdu reveal lang-sec-ur">مقامِ تقریب</p>
+      <div class="divider reveal"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#arch"></use></svg></div>
+
+      <div class="gold-frame venue-card reveal">
+        <h3 data-fill="venueName">Noor Jahan Mandap, Tilda</h3>
+        <p data-fill="venueCity">Cuttack, Odisha, India</p>
+        <p class="venue-address" data-fill="venueAddress">Noor Jahan Mandap, Tilda, Cuttack, Odisha, India</p>
+
+        <div class="venue-buttons">
+          <a id="directions-btn" class="btn" target="_blank" rel="noopener">Get Directions</a>
+          <a id="open-map-btn" class="btn btn-ghost" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+
+        <div class="map-box">
+          <iframe id="map-frame" title="Map of the wedding venue" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 7: CONTACT ============ -->
+    <section class="section" id="contact">
+      <h2 class="section-title reveal">Contact Information</h2>
+      <p class="urdu section-urdu reveal lang-sec-ur">رابطہ فرمائیں</p>
+      <div class="divider reveal"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#floral"></use></svg></div>
+
+      <div class="gold-frame contact-card reveal">
+        <p class="contact-intro">
+          We warmly welcome your blessings and presence. Please feel free to reach out directly via WhatsApp or phone call for any inquiries or warm wishes.
+        </p>
+
+        <div class="contact-grid">
+          <!-- WhatsApp Contact Card -->
+          <div class="contact-item">
+            <span class="contact-role">WhatsApp</span>
+            <strong class="contact-name" id="whatsapp-name">Sk Mahmood Hussain</strong>
+            <span class="contact-phone-text" id="whatsapp-phone">+91 96928 55450</span>
+            <a id="whatsapp-btn" class="btn btn-contact btn-whatsapp" target="_blank" rel="noopener" aria-label="Contact Sk Mahmood Hussain on WhatsApp">
+              <svg class="btn-svg" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Call Contact Card -->
+          <div class="contact-item">
+            <span class="contact-role">Phone Call</span>
+            <strong class="contact-name" id="call-name">Sk Mujtaba Hussain</strong>
+            <span class="contact-phone-text" id="call-phone">+91 70086 78012</span>
+            <a id="call-btn" class="btn btn-contact btn-call" aria-label="Call Sk Mujtaba Hussain">
+              <svg class="btn-svg" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-phone"></use></svg>
+              <span>Call Now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 8: THANK YOU SECTION ============ -->
+    <section class="section thankyou" id="thankyou">
+      <div class="gold-frame thankyou-frame reveal">
+        <svg class="hero-crescent" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg>
+
+        <h2 class="gold-text thankyou-title">Your Love, Our Happiness</h2>
+
+        <div class="ornament-row" aria-hidden="true">
+          <svg class="orn" viewBox="0 0 100 100"><use href="#floral"></use></svg>
+          <svg class="orn orn-big spin" viewBox="0 0 100 100"><use href="#star8"></use></svg>
+          <svg class="orn" viewBox="0 0 100 100"><use href="#floral"></use></svg>
+        </div>
+
+        <p>Thank you for taking time out of your busy lives to be a part of our happiness.</p>
+        <p>Your presence has made this special day even more beautiful and memorable for us.</p>
+        <p>We are truly grateful for your love, blessings, and heartfelt prayers.</p>
+        <p>May Allah shower His endless mercy upon you all and fill your lives with happiness, peace, and countless blessings.</p>
+        <p>With heartfelt gratitude and love,</p>
+        <p>Thank you for being a part of our special day.</p>
+
+        <div class="divider small"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"></use></svg></div>
+        <p class="signoff">With Love, Gulzar E Eram &amp; Samsul Khan</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       3. CLOSING STAGE — DOORS CLOSE SMOOTHLY AT THE END
+       ===================================================== -->
+  <section class="door-stage closing-stage" id="closingStage" aria-label="Closing doors experience">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- Inner farewell card behind the closing doors -->
+    <div class="farewell-card" aria-hidden="true">
+      <img class="welcome-frame" src="assets/welcome-frame.png" alt="" />
+      <div class="farewell-copy">
+        <svg class="farewell-crescent" viewBox="0 0 100 100"><use href="#crescent"></use></svg>
+        <p class="farewell-arabic">جَزَاكُمُ اللَّهُ خَيْرًا</p>
+        <p class="farewell-eyebrow">WITH HEARTFELT GRATITUDE</p>
+        <h3 class="farewell-names">Gulzar E Eram &amp; Shamsul Khan</h3>
+        <div class="ornament"><span></span><i>✦</i><span></span></div>
+        <p class="farewell-text">We look forward to celebrating this blessed day with you.</p>
+        <p class="farewell-date">15 November 2026</p>
+      </div>
+    </div>
+
+    <!-- Lavender Double Door Panels (Closing inward) -->
+    <div class="closing-doors-wrap" aria-hidden="true">
+      <span class="door-image-wrap">
+        <img class="door-image door-left" src="assets/wedding-doors.png" alt="">
+        <img class="door-image door-right" src="assets/wedding-doors.png" alt="">
+      </span>
+    </div>
+
+    <!-- Start Again Button (fades in after doors close) -->
+    <button id="startAgainBtn" class="start-again-btn" type="button" aria-label="Start wedding invitation again from the beginning">
+      <span>Start Again</span>
+      <span class="btn-sparkle" aria-hidden="true">✦</span>
+    </button>
+  </section>
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="footer">
+    <svg class="footer-crescent" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg>
+    <p>A little invitation, made with love</p>
+    <small>Gulzar E Eram &amp; Shamsul Khan · 15 November 2026</small>
+    <p class="developer-tag">Develop By Gulzar E Eram</p>
+  </footer>
+
+  <!-- =====================================================
+       SAVE THE DATE CALENDAR MODAL
+       ===================================================== -->
+  <div id="calendar-modal" class="cal-modal" role="dialog" aria-modal="true" aria-labelledby="cal-modal-title" hidden>
+    <div class="cal-modal-backdrop" id="calModalBackdrop"></div>
+    <div class="cal-modal-card gold-frame">
+      <button class="cal-modal-close" id="calModalClose" type="button" aria-label="Close modal">&times;</button>
+      <svg class="modal-crescent" viewBox="0 0 100 100" aria-hidden="true"><use href="#crescent"></use></svg>
+      <h3 id="cal-modal-title" class="gold-text">Save the Date</h3>
+      <p class="cal-modal-event">Gulzar E Eram &amp; Shamsul Khan</p>
+      <p class="cal-modal-date">Sunday, 15 November 2026 · 12:00 PM IST</p>
+      <p class="cal-modal-venue">📍 Noor Jahan Mandap, Tilda, Cuttack</p>
+      <div class="cal-modal-actions">
+        <a id="gcal-btn" class="btn btn-gcal" target="_blank" rel="noopener">
+          <span>📅 Add to Google Calendar</span>
+        </a>
+        <button id="ical-btn" class="btn btn-ghost btn-ical" type="button">
+          <span>🍏 Apple / Outlook Calendar (.ics)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
