@@ -1,6 +1,6 @@
 /* =========================================================
    LAVENDER WEDDING INVITATION — UNIFIED CONTROLLER SCRIPT
-   Gulzar E Eram & Shamsul Khan
+   Gulzar E Eram & Samsul Khan
    ========================================================= */
 
 /* ---------------------------------------------------------
@@ -9,7 +9,7 @@
 const CONFIG = {
   // Couple Names
   brideName: "Gulzar E Eram",
-  groomName: "Shamsul Khan",
+  groomName: "Samsul Khan",
 
   // Urdu Names (preserves authentic Nastaliq rendering)
   brideNameUrdu: "گلزارِ ارم",
@@ -37,7 +37,7 @@ const CONFIG = {
     name: "Sk Mahmood Hussain",
     phoneDisplay: "+91 96928 55450",
     phoneRaw: "+919692855450",
-    message: "Assalamu Alaikum! I am contacting you regarding the wedding invitation of Gulzar E Eram and Shamsul Khan."
+    message: "Assalamu Alaikum! I am contacting you regarding the wedding invitation of Gulzar E Eram and Samsul Khan."
   },
   callContact: {
     name: "Sk Mujtaba Hussain",
@@ -609,8 +609,8 @@ function setupMusic() {
 
 /* ---------- 12. Save the Date Calendar Integration ---------- */
 function getCalendarData() {
-  const title = "Wedding of Gulzar E Eram & Shamsul Khan";
-  const desc = "Nikah ceremony of Gulzar E Eram & Shamsul Khan.\\nVenue: Noor Jahan Mandap, Tilda, Cuttack.\\nMay Allah bless this union.";
+  const title = "Wedding of Gulzar E Eram & Samsul Khan";
+  const desc = "Nikah ceremony of Gulzar E Eram & Samsul Khan.\\nVenue: Noor Jahan Mandap, Tilda, Cuttack.\\nMay Allah bless this union.";
   const location = "Noor Jahan Mandap, Tilda, Cuttack, Odisha, India";
   // 15 Nov 2026, 12:00 PM IST (06:30 UTC) to 5:00 PM IST (11:30 UTC)
   const startUtc = "20261115T063000Z";
@@ -619,17 +619,17 @@ function getCalendarData() {
   const gcalUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
     "&text=" + encodeURIComponent(title) +
     "&dates=" + startUtc + "/" + endUtc +
-    "&details=" + encodeURIComponent("Nikah ceremony of Gulzar E Eram & Shamsul Khan.\nVenue: Noor Jahan Mandap, Tilda, Cuttack.\nMay Allah bless this union.") +
+    "&details=" + encodeURIComponent("Nikah ceremony of Gulzar E Eram & Samsul Khan.\nVenue: Noor Jahan Mandap, Tilda, Cuttack.\nMay Allah bless this union.") +
     "&location=" + encodeURIComponent(location);
 
   const icsContent = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Gulzar E Eram & Shamsul Khan//Wedding Invitation//EN",
+    "PRODID:-//Gulzar E Eram & Samsul Khan//Wedding Invitation//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",
-    "UID:wedding-gulzar-shamsul-20261115@invitation",
+    "UID:wedding-gulzar-samsul-20261115@invitation",
     "DTSTAMP:20261115T063000Z",
     "DTSTART:" + startUtc,
     "DTEND:" + endUtc,
@@ -664,7 +664,7 @@ function downloadIcsFile() {
   const url = window.URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "Wedding-Gulzar-and-Shamsul.ics";
+  a.download = "Wedding-Gulzar-and-Samsul.ics";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
